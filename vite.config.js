@@ -11,18 +11,18 @@ export default defineConfig({
         enabled: true
       },
       manifest: {
-        name: "FizentYar",
+        name: "همیار فنی",
         short_name: "PWA App",
         description: "A React PWA built with Vite",
         theme_color: "#ffffff",
         icons: [
           {
-            src: "/calculator192.png",
+            src: "/HamyarF192.png",
             sizes: "192x192",
             type: "image/png"
           },
           {
-            src: "/calculator512.png",
+            src: "/HamyarF512.png",
             sizes: "512x512",
             type: "image/png"
           }
