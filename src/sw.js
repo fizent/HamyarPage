@@ -37,7 +37,19 @@ const ASSETS_TO_CACHE = [
   '/HamyarF.png',
   "/icons8-back-arrow-64.png",
   "/HamyarF192.png",
-  "/HamyarF512.png"
+  "/HamyarF512.png",
+  "/Automation.png",
+  "/Creat Image.png",
+  "/MVM-X55-Pro.png",
+  "/neisanabi.png",
+  "/pride.png",
+  "/PROf.png",
+  "/x22-pro-MT-1024x683.png",
+  "/X33-CROSS.png",
+  "/باتری.jpg",
+  "/بوبین کمپ.jpg",
+  "/دینام پژو 206.jpg",
+  "/سمند-800x714.png"
 ];
 
 // نصب و کشتن
