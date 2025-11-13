@@ -12,7 +12,7 @@ export default defineConfig({
       },
       manifest: {
         name: "همیار فنی",
-        short_name: "PWA App",
+        short_name: "همیار فنی",
         description: "A React PWA built with Vite",
         theme_color: "#ffffff",
         icons: [
