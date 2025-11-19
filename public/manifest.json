@@ -10,12 +10,12 @@
   "theme_color": "#191970",
   "icons": [
     {
-      "src": "/FizentYar192.png",
+      "src": "/HamyarF192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/FizentYar512.png",
+      "src": "/HamyarF512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
