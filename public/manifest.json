@@ -1,7 +1,7 @@
 {
   "id": "/",
-  "name": "FizentYar",
-  "short_name": "FizentYar",
+  "name": "HamyarFani",
+  "short_name": "HamyarFani",
   "description": "A Progressive Web App built with React and Vite",
   "start_url": "/",
   "display": "standalone",
