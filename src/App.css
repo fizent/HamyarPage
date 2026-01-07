@@ -310,6 +310,8 @@ html {
   cursor: pointer;
 }
 
+
+
 #file-input {
   display: none;
 }
@@ -331,6 +333,30 @@ li {
 a {
   text-decoration: none;
 }
+
+
+/* LOGO */
+#color_text_ham_logo {
+  color: #0d47a1;
+}
+
+.Loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .loading_animation {
+    width: 800px;
+    height: 800px;
+  }
+
+}
+
 
 
 /* for responsive is   .course_card .find_course  */

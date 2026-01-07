@@ -6,26 +6,46 @@ import AiWork from './components/AiWork';
 import Train from './components/Train';
 import Service from './components/service';
 import OnlineShop from './components/OnlineShop';
+import AnimationHamyarFani from './components/animation';
+import { useEffect, useState } from 'react';
+import {
+  Box,
+  AppBar,
+  Toolbar,
+  IconButton,
+  Typography,
+  Drawer,
+  List,
+  ListItem,
+  ListItemText,
+  Card,
+  CardContent,
+  Button,
+  TextField
+  
+} from "@mui/material";
 function App() {  
 
-  // const [load, setLoad] = useState(true)
+  const [load, setLoad] = useState(true)
 
-  // useEffect(()=> {
-  //   const timeOut = setTimeout(() => {
-  //     setLoad(false)
-  //   }, 5000);
-  //   return ()=> clearTimeout(timeOut)
-  // },[])
+  useEffect(()=> {
+    const timeOut = setTimeout(() => {
+      setLoad(false)
+    }, 5000);
+    return ()=> clearTimeout(timeOut)
+  },[])
 
-  // if(load) {
-  //   return(
-  //     <div className='Loading'>
-  //       <img src="/Loading.svg" alt="" />
-  //       <h2>FizentYar</h2>
-  //       <p>اینترنتت روشن باشه !</p>
-  //     </div>
-  //   )
-  // }
+  if(load) {
+    return(
+      <div className='Loading'>
+        <div className="loading_animation">
+          <AnimationHamyarFani></AnimationHamyarFani>
+        </div>
+        <Typography variant='h1'>همیار فنی</Typography>
+        <Typography variant='h4' id="color_text_ham_logo">همیار فنی متخصص هوشمندِ جیبی شما</Typography>
+      </div>
+    )
+  }
   return (  
     <div>  
       <Routes>  

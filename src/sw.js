@@ -49,7 +49,8 @@ const ASSETS_TO_CACHE = [
   "/باتری.jpg",
   "/بوبین کمپ.jpg",
   "/دینام پژو 206.jpg",
-  "/سمند-800x714.png"
+  "/سمند-800x714.png",
+  "/public/AniHamy.lottie"
 ];
 
 // نصب و کشتن

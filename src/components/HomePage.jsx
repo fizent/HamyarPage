@@ -24,8 +24,6 @@ export default function HomePage() {
     '/pride.png',
     '/neisanabi.png',
     '/x22-pro-MT-1024x683.png',
-    '/machfarch.png',
-    '/MachWater.png',
     '/سمند-800x714.png'
   ];
 
